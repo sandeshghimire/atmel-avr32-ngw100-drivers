@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+export KERNELDIR=/opt/rp/KERNELDIR/linux-headers-3.6.11
+export CC=arm-buildroot-linux-uclibcgnueabi-gcc
+export CXX=arm-buildroot-linux-uclibcgnueabi-g++
+export GDB=arm-buildroot-linux-uclibcgnueabi-dgb
+export TARGET_PREFIX=arm-buildroot-linux-uclibcgnueabi-
+export PATH=/opt/rp/cc/bin:$PATH
+export ARCH=arm
+export CROSS_COMPILE=arm-buildroot-linux-uclibcgnueabi-
+export ENVIRONMENT_SET=Yes
+echo "Environment set."
